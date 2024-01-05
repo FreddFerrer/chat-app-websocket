@@ -8,6 +8,15 @@ public class Mensaje implements Serializable {
     private Long fecha;
     private String username;
     private String tipo;
+    private String color;
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 
     public String getUsername() {
         return username;
